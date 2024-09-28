@@ -7,7 +7,7 @@ body {
   background-color: rgb(112, 107, 107);
 }
 .container {
-    background-color: rgb(250, 205, 205);;
+  background-color: rgb(250, 205, 205);
   width: 400px;
   height: 100vh;
   position: absolute;
@@ -29,9 +29,10 @@ body {
   max-height: 100%;
   touch-action: none;
 }
-.slider{
-    width: 200px;
-    position: relative;
-    left: 100px;
-    top: 620px;
+.slider {
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translateX(-50%);
 }
